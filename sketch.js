@@ -68,9 +68,9 @@ function preload(){
 	tree3 = loadAnimation("assets/tree-3.png");
 	tree4 = loadAnimation("assets/tree-4.png");
 	treeCut = loadAnimation("assets/treeCut.png")
-	snakeImg = loadAnimation("assets/snake.gif");
-	lizardImg = loadAnimation("assets/lizard.gif");
-	scorpionImg = loadAnimation("assets/scorpion.gif")
+	snakeImg = loadImage("assets/snake.gif");
+	lizardImg = loadImage("assets/lizard.gif");
+	scorpionImg = loadImage("assets/scorpion.gif")
 }
 
 function setup() {
