@@ -21,7 +21,6 @@ function preload(){
 	//COMMON
 	playerAni = loadAnimation("assets/png/Idle (1).png", "assets/png/Idle (2).png", "assets/png/Idle (3).png", "assets/png/Idle (4).png","assets/png/Idle (5).png", "assets/png/Idle (6).png", "assets/png/Idle (7).png", "assets/png/Idle (8).png","assets/png/Idle (9).png", "assets/png/Idle (10).png")
 	playerRunRightAni = loadAnimation("assets/png/Run (1).png", "assets/png/Run (2).png", "assets/png/Run (3).png", "assets/png/Run (4).png", "assets/png/Run (5).png", "assets/png/Run (6).png", "assets/png/Run (7).png", "assets/png/Run (8).png");
-	playerRunLeftAni = loadAnimation("assets/png/Run Opp (1).png", "assets/png/Run Opp (2).png", "assets/png/Run Opp (3).png", "assets/png/Run Opp (4).png", "assets/png/Run Opp (5).png", "assets/png/Run Opp (6).png", "assets/png/Run Opp (7).png", "assets/png/Run Opp (8).png")
 	playerJumpAni = loadAnimation("assets/png/Jump (1).png", "assets/png/Jump (2).png", "assets/png/Jump (3).png", "assets/png/Jump (4).png", "assets/png/Jump (5).png", "assets/png/Jump (6).png", "assets/png/Jump (7).png", "assets/png/Jump (8).png", "assets/png/Jump (9).png", "assets/png/Jump (10).png");
 	logo_img = loadImage("assets/LOGO.PNG");
 	howToPlayBtn = loadImage("assets/howToPlay.png");
@@ -114,7 +113,6 @@ function setup() {
 	player = createSprite(500, height-200, 10, 10);
 	player.addAnimation("standing", playerAni);
 	player.addAnimation("moveRight", playerRunRightAni);
-	player.addAnimation("moveLeft", playerRunLeftAni);
 	player.addAnimation("jump", playerJumpAni);
 	player.changeAnimation("standing");
 	player.scale=0.6
